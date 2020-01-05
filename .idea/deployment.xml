@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" uploadOnCheckin="28e20980-41e0-4737-b52a-3be96a02c8c0">
     <serverData>
       <paths name="Color-Picker-Part-1">
         <serverdata>
@@ -9,7 +9,7 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="HTML_and_CSS">
+      <paths name="Server">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -17,5 +17,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="Color-Picker-Part-1" />
   </component>
 </project>
