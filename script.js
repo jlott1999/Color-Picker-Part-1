@@ -9,7 +9,7 @@ function initColorPicker() {
         green: document.getElementById("green"),
         blue: document.getElementById("blue")
     };
-    let colorPickers = document.getElementByClassName("picker");
+    let colorPickers = document.getElementsByClassName("picker");
     setColorPickerEventListeners(colorBox, rgb, colorPickers);
 }
 
@@ -31,12 +31,12 @@ function setBoxBackgroundColor(colorBox, red, green, blue) {
     colorBox.style.backgroundColor = "rgb(" + rgbVal + ")";
 }
 
-function setDisplayValues(red, green, blue) (
+function setDisplayValues(red, green, blue) {
     let redVal = document.getElementById("redVal");
-let greenVal = document.getElementById("greenVal");
-let blueVal = document.getElementById("blueVal");
+    let greenVal = document.getElementById("greenVal");
+    let blueVal = document.getElementById("blueVal");
 
-redVal.innerText = red;
-greenVal.innerText = green;
-blueVal.innerText = blue;
-)
+    redVal.innerText = red;
+    greenVal.innerText = green;
+    blueVal.innerText = blue;
+}
